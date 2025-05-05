@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matti's Portfolio</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <header>
+        <div id="navigation-placeholder"></div>
+      </header>
+
+      <main>
+        <section id="hero" class="card hero">
+          <h1>Welcome to my Portfolio</h1>
+          <p>
+            I am a passionate developer focused on creating modern and
+            user-friendly digital solutions.
+          </p>
+          <a href="#contact" class="btn btn-accent">Contact me</a>
+        </section>
+
+        <section id="about">
+          <h2 class="section-title">About Me</h2>
+          <div class="card">
+            <div class="flex-container align-center">
+              <div class="flex-item">
+                <h3 class="mb-2">Who am I?</h3>
+                <p class="mb-3">
+                  Welcome to my personal portfolio. Here you can get to know me better.
+                  I am a developer with a passion for creating digital solutions that
+                  combine functionality with user-friendly design.
+                </p>
+                <p>
+                  My approach to development is based on thorough analysis,
+                  creative problem-solving, and continuous learning. I believe that the
+                  best results are achieved through collaboration and open
+                  communication.
+                </p>
+              </div>
+              <div class="flex-item text-center">
+                <div class="profile-image">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills">
+          <h2 class="section-title">Skills</h2>
+          <div class="grid-container">
+            <div class="card">
+              <div class="card-icon-header">
+                <i class="fas fa-code card-icon"></i>
+                <h3 class="card-title">Programming</h3>
+              </div>
+              <p>
+                Experience with various programming languages and technologies,
+                including Python, JavaScript, and HTML/CSS.
+              </p>
+              <a
+                href="skills.html"
+                class="details-link"
+                >See details
+                <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+
+            <div class="card">
+              <div class="card-icon-header">
+                <i class="fas fa-laptop-code card-icon"></i>
+                <h3 class="card-title">Web Development</h3>
+              </div>
+              <p>
+                Development of responsive and user-friendly web solutions with a focus
+                on modern technologies and best practices.
+              </p>
+              <a
+                href="skills.html"
+                class="details-link"
+                >See details
+                <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+
+            <div class="card">
+              <div class="card-icon-header">
+                <i class="fas fa-lightbulb card-icon"></i>
+                <h3 class="card-title">Problem Solving</h3>
+              </div>
+              <p>
+                Analytical approach to problem solving with a focus on finding
+                effective and creative solutions to complex challenges.
+              </p>
+              <a
+                href="skills.html"
+                class="details-link"
+                >See details
+                <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+
+        <section id="hobbies">
+          <h2 class="section-title">Interests</h2>
+          <div class="grid-container">
+            <div class="card">
+              <div class="card-icon-header">
+                <i class="fas fa-microchip card-icon"></i>
+                <h3 class="card-title">Technology</h3>
+              </div>
+              <p>
+                Passion for new technology and how it can be used to solve
+                problems and improve everyday life.
+              </p>
+            </div>
+
+            <div class="card">
+              <div class="card-icon-header">
+                <i class="fas fa-book card-icon"></i>
+                <h3 class="card-title">Learning</h3>
+              </div>
+              <p>
+                Constant pursuit of new knowledge and skills in technology
+                and development.
+              </p>
+            </div>
+
+            <div class="card">
+              <div class="card-icon-header">
+                <i class="fas fa-rocket card-icon"></i>
+                <h3 class="card-title">Innovation</h3>
+              </div>
+              <p>
+                Interest in innovative solutions and how technology can
+                drive future development.
+              </p>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <a href="hobbies.html" class="btn btn-primary">See all interests</a>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="card">
+            <form id="contact-form">
+              <div class="mb-3 text-center">
+                <p>
+                  Do you have questions or want to collaborate? Send me a message,
+                  and I'll get back to you as soon as possible.
+                </p>
+              </div>
+
+              <div class="form-row">
+                <div class="form-col">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+
+                <div class="form-col">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+              </div>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+
+              <button type="submit">Send message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <div id="footer-placeholder"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

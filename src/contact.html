@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Matti's Portfolio</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <header>
+        <div id="navigation-placeholder"></div>
+      </header>
+
+      <main>
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="card">
+          <div class="flex-container">
+            <div class="flex-item">
+              <h3 class="section-header">
+                <i class="fas fa-envelope skill-icon"></i>Send a Message
+              </h3>
+
+              <form id="contact-form">
+                <div class="mb-3">
+                  <p>
+                    Do you have questions or want to collaborate? Send me a
+                    message, and I'll get back to you as soon as possible.
+                  </p>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-col">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                  </div>
+
+                  <div class="form-col">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+                </div>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send message</button>
+              </form>
+            </div>
+
+            <div class="flex-item">
+              <h3 class="section-header">
+                <i class="fas fa-map-marker-alt skill-icon"></i>Contact
+                Information
+              </h3>
+
+              <div class="mb-3">
+                <div class="contact-info-item">
+                  <i class="fas fa-envelope contact-info-icon"></i>
+                  <span>4200mati@gmail.com</span>
+                </div>
+
+                <div class="contact-info-item">
+                  <i class="fas fa-phone contact-info-icon"></i>
+                  <span>+45 28 12 89 41</span>
+                </div>
+
+                <div class="contact-info-item">
+                  <i class="fas fa-map-marker-alt contact-info-icon"></i>
+                  <span>Odense, Denmark</span>
+                </div>
+              </div>
+
+              <h4 class="social-heading">Find me on social media</h4>
+
+              <div class="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/mathias-rasmussen-1014531b7/"
+                  target="_blank"
+                  class="social-icon"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://github.com/mara816"
+                  target="_blank"
+                  class="social-icon"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/mattivelli/"
+                  target="_blank"
+                  class="social-icon"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/mathias.rasmussen.980"
+                  target="_blank"
+                  class="social-icon"
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div id="footer-placeholder"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
