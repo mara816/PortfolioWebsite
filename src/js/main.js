@@ -90,7 +90,7 @@ function highlightCurrentPage() {
         nav.style.backgroundColor = "rgba(44, 62, 80, 0.95)";
         nav.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.1)";
       } else {
-        nav.style.backgroundColor = "rgba(0, 0, 0, 0.1)";
+        // nav.style.backgroundColor = "rgba(0, 0, 0, 0.1)";
         nav.style.boxShadow = "none";
       }
     }

@@ -48,7 +48,7 @@ header {
     background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
     color: white;
     padding: 1rem 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
 }
 
 header h1 {
@@ -61,7 +61,7 @@ header h1 {
 
 /* Navigation Styles */
 .main-nav {
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     padding: 0.5rem 0;
     transition: all 0.3s ease;
 }
@@ -102,7 +102,7 @@ header h1 {
 }
 
 .main-nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(256, 255, 255, 0.15);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -110,7 +110,7 @@ header h1 {
 .main-nav ul li a.active {
     background-color: rgba(255, 255, 255, 0.15);
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 /* Main Content Styles */
